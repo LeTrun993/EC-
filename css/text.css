@@ -1,0 +1,114 @@
+#header{
+    background-color: aquamarine;
+    float: right;
+}
+#header ::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#menu{
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+#menu ol{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#menu li{
+    float: left;
+}
+#menu1 li{
+    float: right;
+}
+#menu ol::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#menu a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#menu a:hover{
+    background-color: chartreuse;
+}
+#noidung{
+    background-color: beige;
+    margin: 10px;
+}
+
+#noidung #sale img{
+    float: left;
+}
+#ketthuc{
+    background-color: blueviolet;
+}
+#sale img{
+    width:100px;
+    height:80px;
+}
+#danhsach img{
+    width: 100px;
+    height: 80px;
+}
+#noidung::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#danhmuc li{
+    float:left;
+    list-style-type: none;
+    margin: 15px;
+    
+    padding: 5px;
+    margin: 5px;
+}
+#danhmuc a{
+    text-decoration: none;
+    padding: 0px;
+    
+}
+#danhmuc ::after{
+    display: block;
+    content:"";
+    clear: both;
+}
+#danhmuc a:hover{
+    background-color: darkgoldenrod;
+}
+#danhmuc ol{
+    padding: 0px;
+    margin: 0px;
+}
+#danhmuc{
+    background-color: dodgerblue;
+    padding: 0px;
+    
+}
+#sale img::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+#sale .nhi{
+    width:400px;
+    height: 200px;
+    margin: 5px;
+}
+#danhsach1 img{
+    margin: 10px;
+    box-sizing: content-box;
+    border: solid 2px;
+    width:150px;
+    height: 100px;
+    
+}
+#danhsach1 li{
+    list-style-type: none;
+    float:left
+    
+}
